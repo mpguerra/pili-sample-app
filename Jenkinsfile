@@ -5,4 +5,4 @@ node {
     stage('deployApplication'){
         openshiftDeploy(deploymentConfig: 'ruby-ex')
     }
-}§
+}
